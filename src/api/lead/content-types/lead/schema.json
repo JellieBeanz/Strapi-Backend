@@ -18,7 +18,7 @@
     },
     "email": {
       "type": "email",
-      "required": true
+      "required": false
     },
     "followed_up": {
       "type": "boolean",
