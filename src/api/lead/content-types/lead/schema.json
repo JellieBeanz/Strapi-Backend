@@ -36,6 +36,12 @@
     "age": {
       "type": "integer",
       "max": 99
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "leads"
     }
   }
 }
