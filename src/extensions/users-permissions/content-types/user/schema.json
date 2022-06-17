@@ -68,6 +68,28 @@
       "relation": "oneToMany",
       "target": "api::lead.lead",
       "mappedBy": "owner"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "facebookLink": {
+      "type": "string"
+    },
+    "shopLink": {
+      "type": "string"
+    },
+    "imageLink": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "trialLink": {
+      "type": "string"
     }
   }
 }
