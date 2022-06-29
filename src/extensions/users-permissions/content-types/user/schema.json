@@ -79,17 +79,22 @@
       "type": "string"
     },
     "imageLink": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "trialLink": {
       "type": "string"
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
     }
   }
 }
