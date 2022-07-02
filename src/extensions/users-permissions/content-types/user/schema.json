@@ -92,6 +92,10 @@
     "lastName": {
       "type": "string",
       "required": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": true
     }
   }
 }
