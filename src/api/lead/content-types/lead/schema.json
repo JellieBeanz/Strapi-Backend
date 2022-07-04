@@ -72,6 +72,16 @@
     },
     "notes": {
       "type": "text"
+    },
+    "membership": {
+      "type": "enumeration",
+      "enum": [
+        "lead",
+        "user",
+        "customer",
+        "smartship",
+        "promoter"
+      ]
     }
   }
 }
